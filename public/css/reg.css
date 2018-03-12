@@ -1,0 +1,106 @@
+html,body{
+	margin:0;
+	color:#eb4c42;
+    background: #eb4c42;
+	font:600 16px/18px 'Open Sans',sans-serif;
+	height: 100%;
+    min-height: 100%;
+}
+
+.background {
+	position: fixed;
+	width: 100%;
+	min-height: 100%;
+	opacity: 0.1;
+	background: url(../images/bgAuth.png) repeat center;
+	background-size: 450px;
+}
+
+.logo img {
+	position: absolute;
+	margin-left: 110px;
+	margin-top: 4px;
+	color: #fff;
+	filter: brightness(5);
+}
+
+.form {
+	top: 0;
+	left: 0;
+	width: 450px;
+	height: 490px;
+	background: rgba(0,0,0,.4);
+	position: absolute;
+	border-radius: 10px;
+    left: 50%;
+    margin: 50px 0 50px -225px;
+}
+
+.form h1 {
+	background-color: #fff;
+	width: 120px;
+	height: 26px;
+	border:none;
+	border-radius: 3px;
+	text-align: center;
+	font-size: 16px;
+	margin-left: 220px;
+	padding-top: 4px;
+}
+
+.form hr {
+	border:none;
+	background: #eb4c42;
+	color: #eb4c42;
+	height:	2px;
+	margin-bottom: 20px;
+}
+
+.form input {
+	width: 340px;
+	height: 40px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	padding-left: 10px;
+}
+
+.form label {
+	padding-left: 50px;
+}
+
+.form input[type="date"] {
+	margin-top: 5px;
+}
+
+.form input[type="checkbox"] {
+	width: 16px;
+	height: 16px;
+}
+
+.label {
+	font-size: 12px;
+	color: #000;
+	margin-left: -50px;
+}
+
+.label a {
+	text-decoration: none;
+	border-bottom: 1px dashed #FFFFFF;
+	color: #FFFFFF;
+}
+
+.form input[type="submit"] {
+	margin-top: 20px;
+	cursor: pointer;
+	width: 350px;
+}
+
+.auth {
+	display: flex;
+	justify-content: center;
+	color: #FFFFFF;
+	font-size: 11px;
+	text-decoration: none;
+}
