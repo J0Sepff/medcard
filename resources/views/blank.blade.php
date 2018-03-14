@@ -7,7 +7,7 @@
  */?>
 
 <!DOCTYPE html>
-<html lang="ru" >
+<html lang="{{ app()->getLocale() }}">
 <head>
     <meta charset="utf-8">
     <title>Анкета</title>
