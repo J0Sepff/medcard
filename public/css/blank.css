@@ -1,0 +1,40 @@
+.container {
+    margin-top: 150px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.info {
+    margin-bottom: 50px;
+}
+
+.steps {
+    margin-bottom: 10px;
+}
+
+.steps p span {
+    padding-right: 20px;
+}
+
+input {
+    width: 30%;
+    height: 33px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    margin-left: 23%;
+    border: none;
+    background-color: #E04343;
+    color: #fff;
+    width: 100px;
+    height: 33px;
+}
